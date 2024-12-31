@@ -99,6 +99,7 @@
 
 // export default Profile;
 import React, { useState, useEffect } from 'react';
+import myProfile from '../../assets/images/profile.jpeg' ; 
 
 const TypewriterText = ({ fullText, speed = 100, onComplete }) => {
   const [text, setText] = useState('');
@@ -220,7 +221,8 @@ const Profile = () => {
           <div className="relative group p-12 md:block hidden md:w-1/2">
             <div className="relative overflow-hidden rounded-lg">
               <img 
-                src="assets/images/profile.jpeg" 
+                // src="assets/images/profile.jpeg"
+                src={myProfile} 
                 alt="Profile"
                 className="w-full aspect-square object-cover"
               />
