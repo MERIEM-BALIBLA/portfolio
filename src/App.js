@@ -15,16 +15,17 @@ function App() {
     });
   };
   return (
-    <div className="bg-zinc-200 relative md:px-14">
+    <div className="bg-zinc-200 relative ">
      <Header/>
+      <div className="md:px-14">
       <Profile/>
       <Skils/>
       <Project/>
       <Experience/>
       <Formation/>
       <Contact/>
+      </div>
       <Footer/>
-    
 
 {/* <div class="social-button fixed bottom-4 left-4 z-50">
   

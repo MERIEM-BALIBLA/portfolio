@@ -1,9 +1,16 @@
+import OCP1 from "../../assets/images/OCP.jpg"
+import OCP2 from "../../assets/images/CALCINATION.webp"
+import Pelux from "../../assets/images/PELUX.jpg"
+import DeepLeaf from "../../assets/images/DeepLeaf.jpg"
+import CyberLeet from "../../assets/images/CyberLeet.jpg"
+
+
 const experiences =[
     {
         entreprise:'DeepLeaf | UM6P',
         description: 'Stage de deux mois au sein de l’entreprise DeepLeaf Ben-Guerire',
         date: '2018 2021',
-        image: '/assets/images/DeepLeaf.jpg',
+        image: DeepLeaf,
         lieu:"Ben Guerire",
         taches :[
             {
@@ -18,7 +25,7 @@ const experiences =[
         entreprise:'OCP unité de Calicnation',
         description: 'Stage d’observation de deux mois au sein de l’entreprise OCP Youssoufia',
         date: '2018 2021',
-        image: '/assets/images/CALCINATION.webp',
+        image: OCP2,
         lieu:"Youssoufia",
         taches :[
             {
@@ -30,7 +37,7 @@ const experiences =[
         entreprise:'Pelux',
         description: ' Stage d’un mois au sein de l’entreprise PELUX ',
         date: '2018 2021',
-        image: '/assets/images/PELUX.jpg',
+        image: Pelux,
         lieu:"Youssoufia",
         taches :[
             {
@@ -51,7 +58,7 @@ const experiences =[
         entreprise:'CyberLeet | UM6P',
         description: 'Stage de deux mois au sein de l’entreprise CyberLeet Ben-Guerire',
         date: '2019 - 2020',
-        image: '/assets/images/CyberLeet.jpg',
+        image: CyberLeet,
         lieu:"Ben Guerire",
         taches :[
             {
@@ -66,7 +73,7 @@ const experiences =[
         entreprise:'OCP unité centrale',
         description: 'Stage d’observation d’un mois au sein de l’entreprise OCP Youssoufia ',
         date: ' 2018 - 2019',
-        image: '/assets/images/OCP.jpg',
+        image: OCP1,
         lieu:"Youssoufia"
     }
 ]

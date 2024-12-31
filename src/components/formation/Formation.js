@@ -1,10 +1,13 @@
+import EST from "../../assets/images/EST.png"
+import Youcode from "../../assets/images/Youcode.jpg"
+
 const formations = [
     {
         id: 1,
         title:'EST Safi',
         description: 'Diplome universitaire de technologie en génie industriel et maintenance option Electromécanique à EST de SAFI',
         date: '2018 2021',
-        image: '/assets/images/EST.png',
+        image: EST,
         lieu:"SAFI"
       },
     {
@@ -12,7 +15,7 @@ const formations = [
       title:'EST Safi',
       description: 'Licence professionnelle en mécatronique à EST de SAFI',
       date: '2022-2023',
-      image: '/assets/images/EST.png',
+      image: EST,
       lieu:"SAFI"
     },
       {
@@ -20,7 +23,7 @@ const formations = [
         title:'UM6P / Youcode Youssoufia ',
         description: 'Deuxieme année Developpement JAVA',
         date: '2023- En cours ',
-        image: '/assets/images/Youcode.jpg',
+        image: Youcode,
         lieu:"Youssoufia"
       }
 ]
@@ -28,14 +31,6 @@ const formations = [
 export default function Formation(){
     return(
         <div className="container mx-auto p-4 h-screen mt-18">
-            {/* <div className="flex flex-col justify-center items-center mb-16">
-                <h2 className="text-3xl font-bold text-gray-900">Mes formations</h2>
-                <div className="w-full flex justify-center mt-1">
-                <div className="bg-gray-800 h-1 w-1/5 mt-1"></div>
-                <div className="bg-gray-200 h-1 w-1/5 mt-1"></div>
-                </div>
-                <p className="mt-2 md:mt-2 text-xl lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">Les technologies et outils avec lesquels j'ai travaillé</p>
-            </div> */}
              <div className="text-center mb-16">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">
                     Mes formations
