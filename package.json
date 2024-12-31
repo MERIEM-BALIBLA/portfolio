@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MERIEM-BALIBLA/portfolio", 
+  "homepage": "https://meriem-balibla.github.io/portfolio", 
   "dependencies": {
     "cra-template": "1.2.0",
     "flowbite": "^2.5.2",
