@@ -15,7 +15,7 @@ function App() {
     });
   };
   return (
-    <div className="bg-zinc-200 relative">
+    <div className="bg-zinc-200 relative ">
      <Header/>
       <Profile/>
       <Skils/>
