@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MERIEM-BALIBLA/portfolio/static/css/main.23fdabf0.css",
+    "main.js": "/MERIEM-BALIBLA/portfolio/static/js/main.488aa707.js",
+    "static/js/146.ef7d05b1.chunk.js": "/MERIEM-BALIBLA/portfolio/static/js/146.ef7d05b1.chunk.js",
+    "index.html": "/MERIEM-BALIBLA/portfolio/index.html",
+    "main.23fdabf0.css.map": "/MERIEM-BALIBLA/portfolio/static/css/main.23fdabf0.css.map",
+    "main.488aa707.js.map": "/MERIEM-BALIBLA/portfolio/static/js/main.488aa707.js.map",
+    "146.ef7d05b1.chunk.js.map": "/MERIEM-BALIBLA/portfolio/static/js/146.ef7d05b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23fdabf0.css",
+    "static/js/main.488aa707.js"
+  ]
+}
