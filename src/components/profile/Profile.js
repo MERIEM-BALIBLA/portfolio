@@ -220,7 +220,7 @@ const Profile = () => {
           <div className="relative group p-12 md:block hidden md:w-1/2">
             <div className="relative overflow-hidden rounded-lg">
               <img 
-                src="/assets/images/profile.jpeg" 
+                src="assets/images/profile.jpeg" 
                 alt="Profile"
                 className="w-full aspect-square object-cover"
               />
