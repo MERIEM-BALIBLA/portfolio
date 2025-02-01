@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import myProfile from '../../assets/images/profile.jpeg' ; 
+import myProfile from '../../assets/images/profilee.png' ; 
 
 const TypewriterText = ({ fullText, speed = 100, onComplete }) => {
   const [text, setText] = useState('');
